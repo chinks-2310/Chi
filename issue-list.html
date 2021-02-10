@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Final Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <logo>
+            <img src="/src/images/logo.svg">
+        </logo>
+        <searchbox>
+            <img src="/images/icons-icon_search.svg">
+            <input type="text" id="search" placeholder="Search..">
+        </searchbox>
+        <div class="columns">
+            <img src="/images/notification.svg" id="notification">
+            <img src="/images/user_3.svg" id="user">
+        </div>
+
+    </header>
+    <div class="main">
+        <div class="sidebar">
+            <div class="row">
+                <img src="/images/Dashboard_dark.svg">
+                <a href="#" id="dashboard">Dashboard</a>
+            </div>
+            <div class="row">
+                <img src="/images/Issues_dark.svg">
+                <a href="issue-list.html" id="issue">Issues</a>
+            </div>
+            <div class="row">
+                <img src="/images/edit.svg" id="edit">
+                <a href="#" id="">Create</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-header">
+                <div class="heading">
+                    <h4>Issues</h4>
+                </div>
+                <div class="columns-projects">
+                    <p>Filter</p>
+                    <p>Project<img src="/images/down-arrow.png" style="width: 8%"></p>
+                    <img src="/images/Grid.svg" style="width: 40% ;" height="40% ;">
+                    <img src="/images/List deactivated.svg" style="width: 40%;" height="40%">
+                </div>
+
+            </div>
+            <div class="list">
+                <div class="container1">
+                    <div class="title1">
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="title2">
+                    </div>
+                </div>
+                <div class="container3">
+                    <div class="title3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="app"></div>
+
+    <script src="src/app.ts"></script>
+
+</body>
+
+</html>
